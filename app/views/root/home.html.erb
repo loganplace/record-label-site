@@ -1,0 +1,12 @@
+<div class="title">Other Selves</div>
+
+<li>
+    <% @releases.each do |release| %>
+        <div class="homepage-release-cards">
+            <li><%= release.artist %></li>
+            <li><%= release.name %></li>
+            <li><%= release.release_code %></li>
+            <li><%= release.description %></li>
+        </div>
+    <%end%>
+</li>

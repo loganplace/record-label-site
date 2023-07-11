@@ -1,0 +1,7 @@
+<h1>FORUM</h1>
+<li>
+    <% @posts.each do |post| %>
+        <%= post.poster_name %>
+        <%= post.post_body %>
+    <%end%>
+</li>
