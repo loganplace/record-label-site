@@ -1,0 +1,66 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ /* 
+ COLOR PALETTE
+ 
+ #C4BCA7 (Dun)
+ #1B2D2A (Gunmetal grey) 
+ #78290F (Sienna)
+ #71677C (Chinese Violet)
+ 
+ */
+body {
+    background-image: url(<%= image_path('background.png') %>);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: #989797;
+}
+
+ * {
+    font-family: Helvetica;
+    color: #c4bca7;
+}
+
+
+nav li {
+    margin-left: 50px;
+    display: inline-block;
+    padding-top: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 24px;
+}
+
+div.title {
+    padding-top:3%;
+    font-size: 48px;
+    text-align: center;
+}
+
+.navbar-logo {
+    vertical-align: middle;
+}
+
+div.homepage-release-cards {
+    padding-top:1%;
+}
