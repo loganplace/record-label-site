@@ -6874,3 +6874,363 @@ Processing by RootController#home as HTML
 Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.2ms | Allocations: 10201)
 
 
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:09:14 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.2ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 3266)
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 6922)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.2ms | Allocations: 8189)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:09:25 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.2ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3275)
+  Rendered layouts/_navbar.html.erb (Duration: 1.5ms | Allocations: 644)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 6894)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.2ms | Allocations: 8139)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:10:49 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.3ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 8.8ms | Allocations: 2745)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 9933)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.3ms | Allocations: 10334)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:10:53 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2808)
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 9923)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.1ms | Allocations: 10338)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:11:00 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 2808)
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 9325)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.1ms | Allocations: 9740)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:11:06 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.2ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2808)
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 9926)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.2ms | Allocations: 10341)
+
+
+Started GET "/artists/" for 127.0.0.1 at 2023-07-14 01:11:14 -0400
+Processing by ArtistsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:4
+  Rendered artists/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1016)
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 481)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 4414)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.2ms | Allocations: 5380)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:11:15 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.3ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 8.1ms | Allocations: 2746)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 5732)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.3ms | Allocations: 6108)
+
+
+Started GET "/artists/" for 127.0.0.1 at 2023-07-14 01:11:16 -0400
+Processing by ArtistsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:4
+  Rendered artists/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 655)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3785)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 4115)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:11:18 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.2ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2748)
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 471)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 5759)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.2ms | Allocations: 6111)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:11:20 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.3ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 10.1ms | Allocations: 2745)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 5734)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.3ms | Allocations: 6086)
+
+
+Started GET "/artists/" for 127.0.0.1 at 2023-07-14 01:11:20 -0400
+Processing by ArtistsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:4
+  Rendered artists/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 655)
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3777)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 4105)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:11:21 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.2ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2745)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 5741)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.2ms | Allocations: 6093)
+
+
+Started GET "/artists/" for 127.0.0.1 at 2023-07-14 01:11:22 -0400
+Processing by ArtistsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:4
+  Rendered artists/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 655)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3781)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.2ms | Allocations: 4109)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:11:24 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.5ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2745)
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 5719)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.5ms | Allocations: 6071)
+
+
+Started GET "/artists/" for 127.0.0.1 at 2023-07-14 01:11:25 -0400
+Processing by ArtistsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:4
+  Rendered artists/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 655)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3781)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.1ms | Allocations: 4109)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:11:26 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.2ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 4.8ms | Allocations: 2745)
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 5729)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.2ms | Allocations: 6081)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:11:36 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.2ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 4.9ms | Allocations: 2745)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 10318)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.2ms | Allocations: 10696)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:11:49 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 3265)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 672)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 11072)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.1ms | Allocations: 12349)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:12:18 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:3
+  Rendered root/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2808)
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 10431)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.1ms | Allocations: 10847)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:13:16 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:4
+  Rendered root/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 3273)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 6941)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 8205)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:13:27 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:4
+  Rendered root/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 3272)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 6861)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms | Allocations: 8102)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:13:34 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:4
+  Rendered root/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 3275)
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 6871)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 8112)
+
+
+Started GET "/artists/" for 127.0.0.1 at 2023-07-14 01:13:58 -0400
+Processing by ArtistsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering artists/index.html.erb within layouts/application
+  [1m[36mArtist Load (0.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/views/artists/index.html.erb:4
+  Rendered artists/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1017)
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 640)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4881)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.1ms | Allocations: 6098)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:13:59 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.2ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:4
+  Rendered root/home.html.erb within layouts/application (Duration: 7.1ms | Allocations: 3269)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 482)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 6410)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.2ms | Allocations: 7378)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:14:05 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:4
+  Rendered root/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2752)
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 471)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 5755)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.1ms | Allocations: 6131)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:15:31 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:4
+  Rendered root/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2747)
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 481)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 10412)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms | Allocations: 10790)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:15:35 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:4
+  Rendered root/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2808)
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 10485)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 10900)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:15:43 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.2ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:4
+  Rendered root/home.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2808)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 479)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 10435)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.2ms | Allocations: 10850)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 01:15:46 -0400
+Processing by RootController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/home.html.erb within layouts/application
+  [1m[36mRelease Load (0.1ms)[0m  [1m[34mSELECT "releases".* FROM "releases"[0m
+  ↳ app/views/root/home.html.erb:4
+  Rendered root/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2808)
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 469)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 6462)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.1ms | Allocations: 6849)
+
+
