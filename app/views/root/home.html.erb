@@ -2,11 +2,12 @@
     <div class="title">Other Selves</div>
     <li>
         <% @releases.each do |release| %>
-            <div class="homepage-release-cards">
-                <li><%= release.artist %></li>
-                <li><%= release.name %></li>
-                <li><%= release.release_code %></li>
-                <li><%= release.description %></li>
+            <div class="homepage-release-cards" style="background:#1B2D2A;">
+                <%= image_tag('placeholder-release.png', style: "width: 100%; justify-content: center;")  %><br>
+                <%= release.artist %><br>
+                <%= release.name %><br>
+                <%= release.release_code %><br>
+                <%= release.description %><br>
             </div>
         <%end%>
     </li>
