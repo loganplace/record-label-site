@@ -1,9 +1,11 @@
-<h1>Artists</h1>
-
-<ul>
-    <% @artists.each do |artist| %>
-        <li> 
-            <%= link_to artist.name, artist %>
-        </li>
-    <% end %>
-</ul>
+<div class="artists">
+    <li>
+        <br><br>
+        <% @artists.each do |artist| %>
+            <div class="cards">
+                <%= image_tag('logo.png', style: "width: 100%; justify-content: center;")  %><br>
+                <%= artist.name %><br>
+            </div>
+        <%end%>
+    </li>
+</div>
