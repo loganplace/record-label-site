@@ -2,10 +2,12 @@
     <li>
         <br><br>
         <% @artists.each do |artist| %>
-            <div class="cards">
-                <%= image_tag('logo.png', style: "width: 100%; justify-content: center;")  %><br>
-                <%= artist.name %><br>
-            </div>
+            <%= link_to artist_path(artist.id) do%>
+                <div class="cards">
+                        <%= image_tag('logo.png', style: "width: 100%; justify-content: center;")  %><br>
+                        <%= artist.name %><br>
+                </div>
+            <%end%>
         <%end%>
     </li>
 </div>
