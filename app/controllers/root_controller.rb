@@ -9,4 +9,7 @@ class RootController < ApplicationController
     def forum
         @posts = ForumPost.all
     end
+
+    def contact
+    end
 end
